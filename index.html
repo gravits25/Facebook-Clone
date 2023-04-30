@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facebook</title>
+    <style>
+        body{
+            width: 98 vw;
+            height: 98 vh;
+            background-color: rgb(237, 239, 242);
+        }
+        div{
+            width: 100vw;
+            height: 100 vh;
+            display: block;
+        }
+        .cont{
+            width: 480px ;
+            font-family: Arial, Helvetica, sans-serif;
+            /* display: block ; */
+            position: absolute;
+            top: 200px ;
+            margin: auto ;
+            left: 260px ;
+        }
+        .fb{
+            font-weight: 800 ;
+            color: #1877f2 ;
+            margin: 2px ;
+            /* padding: px ; */
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 54px;
+            /* font-stretch:extra-expanded; */
+        }
+        .below{
+            margin: 5px ;
+            font-size: 26px;
+        }
+        .container{
+            position: absolute ;
+            border: 2px solid rgb(235, 232, 232);
+            background-color: white;
+            width: 370px;
+            height: 350px;
+            top: 140px ;
+            /* padding: 4px ; */
+            margin:auto ;
+            right: 320px ;
+            border-radius: 10px ;
+        }
+        input{
+            border: 1px solid rgb(222, 217, 217);
+            border-radius: 6px;
+        }
+        #a{
+            display: block ;
+            position: absolute;
+            /* padding: 4px ; */
+            height: 45px ;
+            margin: 15px;
+            width:330px ;
+            font-size: 16px;
+            top:6px ;
+            /* border: 1px solid blue; */
+            
+            /* text-align: center; */
+        }
+        #b{
+            display: block ;
+            position: absolute;
+            /* padding: 4px ; */
+            height: 45px ;
+            margin: 15px;
+            font-size: 16px;
+            
+            width:330px ;
+            top:72px ;
+            /* border: 1px solid blue; */
+        }
+        .btn{
+            position: absolute;
+            width: 335px ;
+            top:140px ;
+            border: 1px solid gray;
+            border-radius: 8px ;
+            margin: 15px;
+            height: 45px ;
+            background-color: #1877f2;
+            color: white ;
+            font-weight: 800 ;
+            font-size: 18px ;
+            
+        }
+        .btn:hover{
+            background-color: rgba(0, 0, 255, 0.707);
+            cursor: pointer;
+        }
+        .abc{
+            
+            display: block ;
+            /* margin :auto ; */
+            text-align: center;
+            position: relative;
+            top: 215px ;
+            text-decoration: none;
+            color: rgb(34, 34, 221);
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 14px;
+        }
+        .abc:hover{
+            text-decoration: underline;
+        }
+        hr{
+            position: relative;
+            top : 230px ;
+            width: 335px;
+            /* color:gray ; */
+            border:0.15px solid rgb(235, 229, 229);
+        }
+        .btnn{
+            position: absolute;
+            /* display: block; */
+            /* text-align: center; */
+            width: 200px ;
+            top:195px ;
+            border: 1px solid rgb(226, 223, 223);
+            border-radius: 8px ;
+            margin: 85px;
+            height: 45px ;
+            background-color: #42B72A;
+            color: white ;
+            font-weight: bold;
+            font-size: 18px ;
+            /* right: 70px ; */
+        }
+        .btnn:hover{
+            background-color: #37a122;
+            cursor: pointer;
+        }
+        .xyz{
+            position: absolute;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 14px;
+            bottom: 160px ;
+            right: 350px ;
+            
+        }
+        .uvw{
+            color: black;
+            text-decoration: none;
+        }
+        .uvw:hover{
+            text-decoration: underline;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="whole">
+    <div class="cont">
+        <div class="fb">facebook</div>
+        <p class="below">Facebook helps you connect and share with the people in your life.</p>
+    </div>
+    <div class="container">
+        <input type="text" id = "a" placeholder="Enter email address or phone number">
+        
+        <input type="text" id = "b" placeholder="Password">
+        <button class="btn">Log in</button>
+        <a href="https://www.facebook.com/login/identify/?ctx=recover&ars=facebook_login&from_login_screen=0" class = "abc">Forgotten password?</a>
+        <hr>
+        <button class="btnn">Create New Account</button>
+    </div>
+    <p class = "xyz"><b><a href = "https://www.facebook.com/pages/create/?ref_type=registration_form" class = "uvw">Create a Page</a></b> for a celebrity, brand or business.</p>
+    </div>
+</body>
+</html>
